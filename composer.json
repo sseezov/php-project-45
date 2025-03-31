@@ -1,6 +1,7 @@
 {
     "name": "hexlet/code",
     "description": "a set of simple math games",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "sseezov",
@@ -10,5 +11,12 @@
     "bin": [
         "bin/brain-games"
     ],
-    "require": {}
+    "autoload": {
+        "files": [
+            "src/Cli.php"
+        ]
+        },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.4"
+    }
 }
