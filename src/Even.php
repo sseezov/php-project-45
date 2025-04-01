@@ -25,6 +25,7 @@ function runEven(): void
     $answer = prompt("Your answer\n", '', '');
     if ($answer !== $correctAnswer) {
       line("\"$answer\" is wrong answer ;(. Correct answer was \"$correctAnswer\".");
+      line("Let's try again, $name!");
       return;
     }
     line("Correct!");
