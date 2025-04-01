@@ -10,6 +10,12 @@ brain-even:
 brain-calc:
 	./bin/brain-calc
 
+brain-prime:
+	./bin/brain-prime
+
+brain-progression:
+	./bin/brain-progression
+
 validate:
 	composer validate
 
